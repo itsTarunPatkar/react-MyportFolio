@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Col, Container, Form, InputGroup, Row,} from 'react-bootstrap';
+import { Button, Col, Container, Form, InputGroup, Row, } from 'react-bootstrap';
 import { app, db } from '../firebase';
 import { collection, doc, setDoc } from 'firebase/firestore';
 

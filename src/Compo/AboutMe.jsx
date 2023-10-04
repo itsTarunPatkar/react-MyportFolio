@@ -6,20 +6,20 @@ import myImg from '../Images/profile-pic.png'
 export default function AboutMe() {
     return (
         <>
-            <Container  id='aboutMe' className='d-flex flex-column justify-content-evenly align-items-center g-5 mt-5 ' style={{ minHeight: '100vh', }} >
+            <Container id='aboutMe' className='d-flex flex-column justify-content-evenly align-items-center g-5 mt-5 ' style={{ minHeight: '100vh', }} >
 
                 <h1 className='text-center ' style={{ color: 'black' }}>About Me</h1>
 
-                <Row  className='text-center ' >
-                <Col >
-                <Image className='aboutImg' src={myImg} roundedCircle style={{width:'30%'}} />
-                </Col>
-                
+                <Row className='text-center ' >
+                    <Col >
+                        <Image className='aboutImg' src={myImg} roundedCircle style={{ width: '30%' }} />
+                    </Col>
+
                 </Row>
 
                 <Row>
                     <Col>
-                        <p className='text-center fs-5 ' style={{color:'black', lineHeight:'2.0', letterSpacing:'1.3px'}}>
+                        <p className='text-center fs-5 ' style={{ color: 'black', lineHeight: '2.0', letterSpacing: '1.3px' }}>
 
                             I'm Tarun Kumar Patkar, a passionate tech enthusiast from Jabalpur. Computers have fascinated me since a young age, fueling my love for technology.
                             Through my education, I've focused on programming and software architecture, constantly expanding my knowledge.

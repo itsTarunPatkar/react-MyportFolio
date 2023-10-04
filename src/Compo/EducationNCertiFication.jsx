@@ -1,6 +1,6 @@
 import { Player } from '@lottiefiles/react-lottie-player'
 import React from 'react'
-import {  Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import cAni from '../Animation/CollegeAni.json'
 import sAni from '../Animation/SchoolAni.json'
 import CertiAni from '../Animation/CertifiedAni.json'
@@ -67,7 +67,7 @@ export default function EducationNCertiFication() {
         </Row>
 
         <Row className='d-flex justify-around align-items-center'>
-          
+
           <h1 className='text-center  ' style={{ color: 'black' }}>Certifications</h1>
 
           <Col md={3} sm={12} className='d-flex text-center align-items-center'>
@@ -79,14 +79,14 @@ export default function EducationNCertiFication() {
             ></Player>
           </Col>
 
-          <Col md={9} id='certificateText' className='d-flex align-items-end flex-column ' style={{color:'black', lineHeight:'2.0', letterSpacing:'1.1px'}}>
-            <p style={{textAlign:'center'}}>As an accomplished professional,
-              I have dedicated significant time and effort to furthering my skills and knowledge in various areas. 
+          <Col md={9} id='certificateText' className='d-flex align-items-end flex-column ' style={{ color: 'black', lineHeight: '2.0', letterSpacing: '1.1px' }}>
+            <p style={{ textAlign: 'center' }}>As an accomplished professional,
+              I have dedicated significant time and effort to furthering my skills and knowledge in various areas.
               I am proud to hold multiple certifications that demonstrate my expertise and commitment to excellence.
               These certifications highlight my specialized skills and demonstrate my commitment to delivering exceptional results.
             </p>
             <p>
-            For a random list of my certifications and badges, please visit this link: <a  style={{textDecoration:'none'}} href="https://www.credly.com/users/tarun-patkar">&#128064;</a>
+              For a random list of my certifications and badges, please visit this link: <a style={{ textDecoration: 'none' }} href="https://www.credly.com/users/tarun-patkar">&#128064;</a>
             </p>
           </Col>
 
