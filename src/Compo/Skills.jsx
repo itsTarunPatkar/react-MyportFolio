@@ -4,10 +4,10 @@ import { Col, Container, Row } from 'react-bootstrap'
 export default function Skills() {
     return (
         <Container className='d-flex  justify-content-evenly ' style={{ minHeight: '100vh', }} >
-            
-            
+
+
             <Row>
-            <h1 className='text-center ' style={{ color: 'black' }}>Skills</h1>
+                <h1 className='text-center ' style={{ color: 'black' }}>Skills</h1>
                 <Col md sm={12} className='d-flex flex-column g-5'>
                     <Row>
                         <Col md sm={12}>
@@ -112,16 +112,18 @@ export default function Skills() {
                                 <br />
                                 <Row>
 
-                                    <Col><a href="https://www.youtube.com/watch?v=gwWKnnCMQ5c" style={{ textDecoration: 'none' }}><i class="devicon-github-original-wordmark"></i></a>
+                                    <Col title='Github'><a href="https://www.youtube.com/watch?v=gwWKnnCMQ5c" style={{ textDecoration: 'none' }}><i class="devicon-github-original colored"></i></a>
                                     </Col>
 
-                                    <Col> <i class="devicon-visualstudio-plain colored"></i>
+                                    <Col><i class="devicon-git-plain-wordmark colored"></i>
+                                    </Col>
+                                    <Col> <i class="devicon-vscode-plain colored"></i>
                                     </Col>
                                     <Col><i class="devicon-salesforce-plain colored"></i>
                                     </Col>
                                 </Row>
                                 <Row>
-                                    <p className='mt-4'>I excel in utilizing data analysis tools, popular development tools and code editors to drive efficient and effective software development processes.</p>
+                                    <p className='mt-4'>I excel in utilizing data analysis tools, popular development tools, Version control systems (VCS) and code editors to drive efficient and effective software development processes.</p>
                                 </Row>
                             </div>
                         </Col>
