@@ -8,6 +8,8 @@ function Footer() {
       <div className="" style={{ width: '100%' }}>
 
         <footer className="text-center text-white" style={{ backgroundImage: "linear-gradient(to top, #093576, #114992, #165faf, #1775cd, #128deb)" }}>
+         
+
 
           <div className="container d-flex flex-column">
 

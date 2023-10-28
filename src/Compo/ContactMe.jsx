@@ -104,29 +104,6 @@ export default function ContactMe() {
             )}
           </Col>
         </Row>
-
-        {/* <Row>
-          <Col className="d-flex flex-column align-items-center">
-            <Row>
-              <h3 className="text-black">Connect with me</h3>
-            </Row>
-
-            <Row>
-              <Col>
-                <i class="bi bi-file-earmark-arrow-down"></i>
-                <a href="https://www.linkedin.com/in/tarunpatkar">
-                  <img src={LinkedInImg} alt="" />{' '}
-                </a>
-                <a href="https://www.instagram.com/world.tarun/">
-                  <img src={InstaImg} alt="" />{' '}
-                </a>
-                <a href="https://github.com/itsTarunPatkar">
-                  <img src={GitImg} alt="" />{' '}
-                </a>
-              </Col>
-            </Row>
-          </Col>
-        </Row> */}
       </Container>
     </div>
     </>

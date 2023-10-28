@@ -7,6 +7,14 @@
 	--Accent: #8a6056;
 }
 
+::selection {
+    background-color: rgb(207, 202, 202) !important;
+    text:var(--text);
+}
+
+
+
+
 * {
 	margin: 0;
 	padding: 0;
