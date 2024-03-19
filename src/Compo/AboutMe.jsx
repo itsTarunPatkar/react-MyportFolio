@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap'
-import myImg from '../Images/profile-pic.png'
+import myProfile from '../Images/DSCF2323.png'
+
 
 
 export default function AboutMe() {
@@ -8,18 +9,18 @@ export default function AboutMe() {
         <>
             <Container id='aboutMe' className='d-flex flex-column justify-content-evenly align-items-center g-5 mt-5 ' style={{ minHeight: '100vh', }} >
 
-                <h1 className='text-center ' style={{ color: 'black' }}>About Me</h1>
+                <h1 className='text-center ' style={{  }}>About Me</h1>
 
-                <Row className='text-center ' >
-                    <Col >
-                        <Image className='aboutImg' src={myImg} roundedCircle style={{ width: '30%' }} />
+                <Row className='text-center ' roundedCircle style={{ width: '50rem'}} >
+                    <Col > 
+                        <Image className='aboutImg' src={myProfile} roundedCircle style={{width:'30%', objectFit:'contain'}}  />
                     </Col>
 
                 </Row>
 
                 <Row>
                     <Col>
-                        <p className='text-center fs-5 ' style={{ color: 'black', lineHeight: '2.0', letterSpacing: '1.3px' }}>
+                        <p className='text-center fs-5 ' style={{  lineHeight: '2.0', letterSpacing: '1.3px' }}>
 
                             I'm Tarun Kumar Patkar, a passionate tech enthusiast from Jabalpur. Computers have fascinated me since a young age, fueling my love for technology.
                             Through my education, I've focused on programming and software architecture, constantly expanding my knowledge.

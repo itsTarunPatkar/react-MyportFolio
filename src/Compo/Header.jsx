@@ -1,6 +1,6 @@
 import React from "react";
 import { Button, Col, Container, Row, Modal } from "react-bootstrap";
-import resImg from '../Images/Tarun Resume.jpg'
+import resImg from '../Images/Tarun Resume.png'
 import Particles from "./Particles";
 import { Player } from "@lottiefiles/react-lottie-player";
 import headAni from "../Animation/headAni.json";
@@ -53,7 +53,7 @@ export default function Header() {
 						className='text-center  d-flex align-items-center z-2'
 						style={{ color: "#eff4f5" }}>
 						<Row>
-							<h2 style={{ fontWeight: 'bold' }}>Hello World ! I am</h2>
+							
 							<Player
 								className=''
 								autoplay
@@ -62,7 +62,7 @@ export default function Header() {
 								style={{ width: "40%", zIndex: -1 }}>
 								<h1
 									className='Displayname d-flex flex-column'
-									style={{ fontSize: "80px" }}>
+									style={{ fontSize: "80px" , text: "#fff", zIndex: 2 }}>
 									Tarun
 								</h1>
 							</Player>

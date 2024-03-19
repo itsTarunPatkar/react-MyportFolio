@@ -1,19 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+
 :root {
-	--text: #0000;
-	--bg: #f2fdfd;
+	--bg: #0000;
+	--text: #f2fdfd;
 	--priBtn: #b8958e;
 	--secBtn: #000000;
 	--Accent: #8a6056;
 }
 
 ::selection {
-    background-color: rgb(207, 202, 202) !important;
-    text:var(--text);
+	background-color: rgb(196, 69, 242) !important;
+
+}
+
+h1::selection{
+	background-color: violet;
+	text-transform: #15011c;
 }
 
 
-
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	color: #eff4f5 !important;
+}
 
 * {
 	margin: 0;
@@ -22,8 +35,9 @@
 }
 
 body {
-	background-color: #eff4f5 !important;
-	color:#000 !important;
+	backdrop-filter: blur(10);
+	background-image: radial-gradient(circle, #7a076e, #631062, #4e1355, #3b1246, #2a1037, #240d2c, #1f0922, #190319, #170112, #13010b, #0b0004, #000000);
+	color: #eff4f5 !important;
 	font-family: "Montserrat", sans-serif !important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -32,6 +46,7 @@ body {
 i {
 	font-size: 60px;
 }
+
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -61,13 +76,14 @@ i {
 		#6f5aea,
 		#794de3
 	); */
-	color: #000;
+	color: var(--bg);
 	background-clip: text;
 	/* text-fill-color: transparent; */
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 
 	animation: shine 11s linear infinite;
+
 	@keyframes shine {
 		to {
 			background-position: 200% center;
@@ -76,9 +92,8 @@ i {
 }
 
 .aboutImg {
-	-webkit-box-shadow: 10px 0px 93px -8px rgba(184, 149, 142, 0.63);
-	-moz-box-shadow: 10px 0px 93px -8px rgba(184, 149, 142, 0.63);
-	box-shadow: 10px 0px 93px -8px rgba(184, 149, 142, 0.63);
+	border : 1px solid #eff4f5;
+	border-radius: 50% solid #eff4f5;
 }
 
 @media only screen and (max-width: 600px) {
@@ -97,6 +112,7 @@ i {
 	.projects-1 {
 		text-align: center;
 	}
+
 	.projects-2 {
 		text-align: center;
 	}

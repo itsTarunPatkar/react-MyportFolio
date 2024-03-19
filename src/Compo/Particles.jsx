@@ -9,10 +9,11 @@ const ParticlesComponent = (props) => {
 		return {
 			background: {
 				image:
-				"linear-gradient(to bottom, #061730, #10315a, #184d87, #1b6cb8, #128deb)",
-				color: {
-					value: "#000000",
-				},
+				"radial-gradient(circle, #7a076e, #631062, #4e1355, #3b1246, #2a1037, #240d2c, #1f0922, #190319, #170112, #13010b, #0b0004, #000000)",
+				
+				// color: {
+				// 	value: "#000000",
+				// },
 			},
 			fullScreen: {
 				enable:  false, // enabling this will make the canvas fill the entire screen, it's enabled by default

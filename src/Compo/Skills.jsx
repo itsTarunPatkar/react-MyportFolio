@@ -7,7 +7,7 @@ export default function Skills() {
 
 
             <Row>
-                <h1 className='text-center ' style={{ color: 'black' }}>Skills</h1>
+                <h1 className='text-center ' style={{  }}>Skills</h1>
                 <Col md sm={12} className='d-flex flex-column g-5'>
                     <Row>
                         <Col md sm={12}>

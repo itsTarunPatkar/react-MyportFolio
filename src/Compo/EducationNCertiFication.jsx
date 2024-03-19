@@ -12,9 +12,9 @@ export default function EducationNCertiFication() {
     <>
       <Container className='d-flex flex-column justify-evenly' style={{ minHeight: '100vh', }} >
         <Row  >
-          <h1 className='text-center ' style={{ color: 'black' }}>Education & Qualification</h1>
+          <h1 className='text-center ' style={{  }}>Education & Qualification</h1>
 
-          <Col sm={12} className='d-flex flex-row justify-around text-black text-end' style={{ borderBottom: '2px solid ', borderBottomWidth: '0%' }}>
+          <Col sm={12} className='d-flex flex-row justify-around text-end' style={{ borderBottom: '2px solid ', borderBottomWidth: '0%' }}>
 
             <Row >
               <Col md={4} className='d-flex align-items-center'>
@@ -68,7 +68,7 @@ export default function EducationNCertiFication() {
 
         <Row className='d-flex justify-around align-items-center'>
 
-          <h1 className='text-center  ' style={{ color: 'black' }}>Certifications</h1>
+          <h1 className='text-center  ' style={{  }}>Certifications</h1>
 
           <Col md={3} sm={12} className='d-flex text-center align-items-center'>
             <Player
@@ -79,7 +79,7 @@ export default function EducationNCertiFication() {
             ></Player>
           </Col>
 
-          <Col md={9} id='certificateText' className='d-flex align-items-end flex-column ' style={{ color: 'black', lineHeight: '2.0', letterSpacing: '1.1px' }}>
+          <Col md={9} id='certificateText' className='d-flex align-items-end flex-column ' style={{  lineHeight: '2.0', letterSpacing: '1.1px' }}>
             <p style={{ textAlign: 'center' }}>As an accomplished professional,
               I have dedicated significant time and effort to furthering my skills and knowledge in various areas.
               I am proud to hold multiple certifications that demonstrate my expertise and commitment to excellence.
