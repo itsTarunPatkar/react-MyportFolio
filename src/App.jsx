@@ -4,7 +4,7 @@ import Skills from "./Compo/Skills";
 import EducationNCertiFication from "./Compo/EducationNCertiFication";
 import Projects from "./Compo/Projects";
 import ContactMe from "./Compo/ContactMe";
-import Footer from "./Compo/Footer";
+
 
 function App() {
 	return (
@@ -15,7 +15,6 @@ function App() {
 			<Skills />
 			<Projects />
 			<ContactMe />
-			<Footer/>
 		</>
 	);
 }
