@@ -9,11 +9,11 @@
 }
 
 ::selection {
-	background-color: rgb(196, 69, 242) !important;
+	background-color: #AA97D0 !important;
 
 }
 
-h1::selection{
+h1::selection {
 	background-color: violet;
 	text-transform: #15011c;
 }
@@ -33,6 +33,7 @@ p {
 	padding: 0;
 	box-sizing: border-box;
 }
+
 
 body {
 	backdrop-filter: blur(10);
@@ -92,7 +93,7 @@ i {
 }
 
 .aboutImg {
-	border : 1px solid #eff4f5;
+	border: 1px solid #eff4f5;
 	border-radius: 50% solid #eff4f5;
 }
 

@@ -18,7 +18,7 @@ export default function Projects() {
                     E-Mistri
                 </h3>
                 <Col md={5} sm={12}>
-                    <img src={Emistri} alt="" style={{ width: '100%' }} />
+                    <img src={Emistri} className="projectPhotos" alt="" style={{ width: '100%' }} />
                     <div className="visit-icons pb-3 text-center">
                     <a href="http://emistri.epizy.com" target="_blank" rel="noopener noreferrer">
                     <button type="button" class="btn btn-outline-info">
@@ -63,7 +63,7 @@ export default function Projects() {
                     </p>
                 </Col>
                 <Col md={5} sm={12} className='d-flex flex-column align-items-center mb-2'>
-                    <img src={TicketUs} alt="" style={{ width: '90%' }} />
+                    <img src={TicketUs} className="projectPhotos" alt="" style={{ width: '90%' }} />
                     <div className="visit-icons">
                         <a href="https://github.com/itsTarunPatkar/TicketUs-QR-Based-Ticketing" target="_blank" rel="noopener noreferrer">
                             <button type="button" class="btn btn-outline-light">
@@ -83,7 +83,7 @@ export default function Projects() {
                     Brand landing page
                 </h3>
                 <Col md={5} sm={12} className='d-flex flex-column '>
-                    <img src={BImg} alt="" style={{ width: '100%' }} />
+                    <img src={BImg} className="projectPhotos" alt="" style={{ width: '100%' }} />
                     <div className="visit-icons d-flex justify-content-evenly">
                         <a href="https://github.com/itsTarunPatkar/brand-landingpage-reactjs" target="_blank" rel="noopener noreferrer">
                             <button type="button" class="btn btn-outline-light">
