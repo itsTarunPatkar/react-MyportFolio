@@ -10,7 +10,10 @@
 
 ::selection {
 	background-color: #AA97D0 !important;
+}
 
+.contactIcons:hover {
+	color: #fb7fee !important;
 }
 
 h1::selection {
