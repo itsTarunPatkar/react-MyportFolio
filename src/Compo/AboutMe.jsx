@@ -22,14 +22,9 @@ export default function AboutMe() {
                     <Col>
                         <p className='text-center fs-5 ' style={{  lineHeight: '2.0', letterSpacing: '1.3px' }}>
 
-                            I'm Tarun Kumar Patkar, a passionate tech enthusiast from Jabalpur. Computers have fascinated me since a young age, fueling my love for technology.
-                            Through my education, I've focused on programming and software architecture, constantly expanding my knowledge.
-                            Beyond technical skills, I possess strong leadership abilities, leading teams and organizing events. My college journey has been filled with
-                            memorable experiences, participating in hackathons and visiting prestigious institutions like IIT Guwahati, which fueled my determination.
-                            Equipped with cutting-edge knowledge and a thirst for learning, I'm ready to make a lasting impact in the industry. With attention to detail
-                            and problem-solving skills, I aim to lead innovative projects and push the boundaries of software development.
-                            As I begin my professional journey, driven by passion and unwavering commitment, I aspire to revolutionize the world of
-                            technology with transformative contributions that shape the future.
+                        Tarun Kumar Patkar is a skilled software developer with a deep passion for technology. He has a strong foundation in programming and software architecture, honed through years of dedicated study and hands-on experience. Currently working as a SDE-I at 
+                        <b className='jio' style={{textDecoration: "bold"}}> Jio Platform Ltd </b>
+                        , Tarun has expertise in telecom wireframes, backend architecture, and handling large-scale systems. Based in Jabalpur, India, he is committed to driving innovation and creating impactful solutions that shape the future of technology.
                         </p>
                     </Col>
 
