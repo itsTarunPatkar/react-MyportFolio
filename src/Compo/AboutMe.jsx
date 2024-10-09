@@ -23,7 +23,7 @@ export default function AboutMe() {
                         <p className='text-center fs-5 ' style={{  lineHeight: '2.0', letterSpacing: '1.3px' }}>
 
                         Tarun Kumar Patkar is a skilled software developer with a deep passion for technology. He has a strong foundation in programming and software architecture, honed through years of dedicated study and hands-on experience. Currently working as a SDE-I at 
-                        <b className='jio' style={{textDecoration: "bold"}}> Jio Platform Ltd </b>
+                        <b> Jio Platform Ltd </b>
                         , Tarun has expertise in telecom wireframes, backend architecture, and handling large-scale systems. Based in Jabalpur, India, he is committed to driving innovation and creating impactful solutions that shape the future of technology.
                         </p>
                     </Col>
