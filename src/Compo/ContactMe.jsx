@@ -125,7 +125,7 @@ export default function ContactMe() {
               className="text-center p-3 mb-1"
               style={{ background: "transparent", }}
             >
-              © 2024 Copyright: Tarun Kumar Patkar
+              © 2025 Copyright: Tarun Kumar Patkar
             </div>
           </footer>
         </Row>

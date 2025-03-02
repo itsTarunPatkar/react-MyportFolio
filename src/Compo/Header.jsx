@@ -1,11 +1,11 @@
 import React from "react";
 import { Button, Col, Container, Row, Modal } from "react-bootstrap";
-import resImg from '../Images/Tarun Resume.png'
+import resImg from '../Images/Tarun Resume.jpg'
 import Particles from "./Particles";
 import { Player } from "@lottiefiles/react-lottie-player";
 import headAni from "../Animation/headAni.json";
 import dropAni from "../Animation/dropAni.json";
-import ResumeDoc from '../Docx/Tarun Resume.pdf'
+import ResumeDoc from '../Docx/Updated_resume.pdf'
 
 function MyVerticallyCenteredModal(props) {
 	return (
