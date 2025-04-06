@@ -6,7 +6,7 @@ export default function AboutMe() {
         <>
             <Container id='aboutMe' className='d-flex flex-column justify-content-evenly align-items-center g-5 mt-5 ' style={{ minHeight: '100vh', }} >
                 <h1 className='text-center ' style={{}}>About Me</h1>
-                <Row className='text-center ' roundedCircle style={{ width: '50rem' }} >
+                <Row className='text-center ' roundedCircle style={{ width: '100%' }} >
                     <Col >
                         <Image className='aboutImg' src={myProfile} roundedCircle style={{ width: '30%', objectFit: 'contain' }} />
                     </Col>
